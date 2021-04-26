@@ -1,0 +1,158 @@
+
+<div class="logo"> <img src="https://res.cloudinary.com/pavie/image/upload/v1599471282/Logo1.png" alt="">  
+</div>
+<h1>My Chess Board</h1>
+
+
+<table>  
+  <tr>
+    <th></th>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+    <th>d</th>
+    <th>e</th>
+    <th>f</th>
+    <th>g</th>
+    <th>h</th>
+    
+  </tr>
+  <tr>
+    <td><b>8</b></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+  </tr>
+  <tr>
+    <td><b>7</b></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+  </tr>
+  <tr>
+    <td><b>6</b></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+  </tr>
+  <tr>
+    <td><b>5</b></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+  </tr>
+  <tr>
+    <td><b>4</b></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+  </tr>
+  <tr>
+    <td><b>3</b></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+  </tr>
+  <tr>
+    <td><b>2</b></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+  </tr>
+  <tr>
+    <td><b>1</b></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+     <td class="b"></td>
+     <td class="w"></td>
+  </tr>
+</table>
+
+
+
+
+HTML
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  background:grey;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+}
+.logo{
+  display: flex;
+}
+h1{
+  margin: 100px auto;
+}
+table {
+   display:flex;
+  justify-content:center;
+  border-collapse: collapse;
+  border: none;
+  display: inline-flex;
+  margin: 0;
+
+}
+th{
+  font-size: 20px;
+  
+}
+
+td{
+  width: 75px;
+  height: 75px;
+}
+
+.w{
+  background-color: white;
+}
+.b{
+  background-color: black;
+}
+
+
+
+
+CSS
