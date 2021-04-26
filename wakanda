@@ -1,0 +1,53 @@
+<div>
+  <h1>BlackPanther</h1>
+  <h2><em>t'chala</em></h2>
+ <img src = "https://cdn.thenationroar.com/wp-content/uploads/2020/04/blackpanther.jpg.1440x1000_q85_box-023640468_crop_detail.jpg">
+  <p>Black Panther is one of the best looking superheroes especially for people who love the colour black, he has a very high rate of agility</p>
+  <h3>Wakanda forever</h3>
+  <p><a
+  href="https://en.wikipedia.org/wiki/Marvel_Universe">visit marvel universe </a> to know more about Black Panther </p>
+  <hr>
+  <p>A fan page by a prograd junior,
+    Eshwar ~</p>
+</div>
+
+
+
+
+
+html
+
+
+
+
+body{
+  background-image:url('https://i.pinimg.com/originals/36/d3/ce/36d3ce9f4df6d58968469c3b3dfc5a00.jpg');
+  background-size:100% 100%;
+  font-family:sans-serif;
+ }
+div{
+  background-color:magenta;
+  text-align:center;
+  margin:10%;
+  padding:2%;
+  border-radius:10px;
+}
+img{
+  width:70%;
+}
+img:hover{
+  transform:scale(1.05);
+  box-shadow:0px 0px 5px 5px white;
+}
+h3:hover{
+  animation:move 2s infinite;
+}
+@keyframes move{
+  0%{color:blue;}
+  50%{color:red;}
+  100%{color:white;font-size:180%;}
+}
+
+
+
+css
