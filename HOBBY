@@ -1,0 +1,40 @@
+<h1>This is my first webpage  </h1>
+<p> Welcom to my first webpage. I'm right now learning to create Awesome webpages and it's fun ! </p>
+<h2>About me:</h2>
+<p> I'm ESHWAR ANAND, I'm studying in 10th standard at Tejaswi High School . Right now, I am a ProGrad Junior, and it's fun, you should check it out !</p>
+<h3> My Hobbies :</h3>
+<ul>
+  <li>  Art & Craft</li></ul>
+<img src="https://images.unsplash.com/photo-1587718880944-4ed8bc9d2606?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=562&q=80" alt="">
+<ul><li> Baking </li></ul>
+<img src="https://images.unsplash.com/photo-1512223792601-592a9809eed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=604&q=80" alt="">
+<ul><li> Dancing ( Choreographing)</li></ul>
+<img src="https://images.unsplash.com/photo-1562694909-3d53309d5e14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+<ul><li>Gaming </li></ul>
+<img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+
+
+
+
+HTML
+
+
+
+
+body{
+  background-color:pink
+}
+img{width:200px;}
+h1{ 
+  color:magenta;
+}
+h2{
+  color:purple;
+}
+h3{
+  color:crimson
+}
+
+
+
+CSS
