@@ -1,0 +1,44 @@
+<img src="https://res.cloudinary.com/pavie/image/upload/v1599471282/Logo1.png">  
+<div>
+<h1> Turn on and off Bulb using buttons.</h1>
+<img id="image1"  src="https://image.flaticon.com/icons/svg/702/702814.svg" height="100px">
+<br>
+<br>
+<button id="turnon"> Turn on </button>
+<button id="turnoff"> Turn off </button>
+</div>
+
+
+
+HTML
+
+
+
+div{
+  text-align:center;
+ 
+}
+button {
+  font-size: 22px;
+  background: dodgerblue;
+  color: white;
+  border-radius:30px;
+  border:none;
+  padding:10px 20px;
+}
+
+
+
+CSS
+
+
+
+//Here is the link for the bulb when the button is turn on.
+//https://image.flaticon.com/icons/svg/702/702797.svg
+document.getElementById("turnon").onclick=()=>{document.getElementById("image1").src="https://image.flaticon.com/icons/svg/702/702797.svg"};
+document.getElementById("turnoff").onclick=()=>{document.getElementById("image1").src="https://image.flaticon.com/icons/svg/702/702814.svg"};
+
+
+
+
+JS
