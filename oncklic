@@ -1,0 +1,56 @@
+<div class="logo"> <img src="https://res.cloudinary.com/pavie/image/upload/v1599471282/Logo1.png" alt="">  
+</div>
+<input type="button" value="Theme-1" id="climate1">
+<input type="button" value="Theme-2" id="climate2">
+<input type="button" value="Theme-3" id="climate3">
+<input type="button" value="Theme-4" id="climate4">
+
+
+
+html
+
+
+input[type="button"]{
+  background:orange;
+  border:none;
+  width:100px;
+  height:40px;
+  color:white;
+  border-radius:30px;
+  margin-top:37%;
+  margin-left:13%;
+}
+
+
+css
+
+
+
+/* Theme 1 - https://cdn.wallpapersafari.com/28/60/P7sjNK.jpg
+
+Theme - 2
+https://clipartstation.com/wp-content/uploads/2017/11/snowy-day-clipart-4.jpg
+
+Theme - 3
+https://cdn.clipart.email/fe0d62cb4c523d4b4253bc250e43821c_on-the-outskirts-of-scenery-spring-outing-the-outskirts-_650-388.jpeg
+
+
+Theme - 4
+https://cdn.wallpapersafari.com/50/6/Vwa68t.jpg
+*/
+
+document.getElementById("climate1").onclick=()=>{document.body.style.backgroundImage="url('https://cdn.wallpapersafari.com/28/60/P7sjNK.jpg')"};
+
+                                                 document.getElementById("climate2").onclick=()=>{document.body.style.backgroundImage="url('https://clipartstation.com/wp-content/uploads/2017/11/snowy-day-clipart-4.jpg')"};
+
+                                                                                                  document.getElementById("climate3").onclick=()=>{document.body.style.backgroundImage="url('https://cdn.clipart.email/fe0d62cb4c523d4b4253bc250e43821c_on-the-outskirts-of-scenery-spring-outing-the-outskirts-_650-388.jpeg')"};
+
+                                                                                                                                                   document.getElementById("climate4").onclick=()=>{document.body.style.backgroundImage="url('https://cdn.wallpapersafari.com/50/6/Vwa68t.jpg')"};
+
+
+
+
+
+
+
+js
