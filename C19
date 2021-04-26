@@ -1,0 +1,92 @@
+<header><h1>STAY SAFE </h1></header>
+<div class="block">
+  <section id="hand" class="wrapper">
+    <div><h3>Wash Your Hands Properly-</h3></div>
+    <div><img  src="https://www.flaticon.com/svg/static/icons/svg/2913/2913564.svg" alt=""></div>
+  </section>
+   
+  <section id="cover" class="wrapper1">
+    <div> <h3>-Wear Mask Properly</h3></div>
+    <img src="https://www.flaticon.com/svg/static/icons/svg/3090/3090774.svg" alt="">
+  </section>
+  
+  <section id="safe" class="wrapper">
+    <div><h3 class="Wear">Stay Home and Stay Safe-</h3></div>
+    <img src="https://www.flaticon.com/svg/static/icons/svg/2962/2962889.svg" alt="">
+  </section>
+  
+  <section id="eat" class="wrapper1">
+      <div><h3>-Include Healthy Food In Your Diet</></div>
+    <img src="https://www.flaticon.com/svg/static/icons/svg/706/706164.svg" alt="">
+  </section>
+  
+  <section id="stay" class="wrapper">
+    <div><h3>Exercise Daily-</h3></div>
+     <img src="https://www.flaticon.com/svg/static/icons/svg/2917/2917805.svg" alt="">
+  </section>
+  
+</div>
+<footer><h1>~ By ProGrad Junior, Eshwar 😎</h1></footer>
+
+
+
+
+HTML
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+body{
+font-family: 'Exo', sans-serif;
+background: hsla(10, 100%, 60%, 0.6);
+text-align:center;
+  font-size:120%;
+}
+
+img{
+  width:100px;
+ }
+
+header,footer{
+  padding:5px;
+  margin:15px;
+  background-color:black;
+  color:white;
+}
+
+/* write your code here */
+
+
+.wrapper{
+  width: 700px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper1{
+   width: 750px;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.wrapper img{
+  margin-left: 250px;
+}
+
+.wrapper1 img{
+  margin-right: 250px;
+}
+
+.block{
+  margin-left: 120px;
+  
+}
+
+
+
+CSS
