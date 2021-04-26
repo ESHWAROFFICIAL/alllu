@@ -1,0 +1,63 @@
+<div>
+<h1>Avengers</h1>
+<h2><em>"Endgame"</em></h2>
+<img src="https://cnet3.cbsistatic.com/img/xLgPeuq6CW9A2N2V2kKmhMT6h2o=/1092x0/2019/03/14/dd4d8d9c-5f16-4f6b-a7d8-65a00d095c2c/avengers-endgame-poster-square-crop.jpg"
+alt="Avengers vs Thanos"/>
+<br/>
+<p>
+The Avengers are a fictional team of superheroes appearing in American comic books published by Marvel Comics. The team made its debut in The Avengers #1, created by writer-editor Stan Lee and artist/co-plotter Jack Kirby. The Avengers is Lee and Kirby's renovation of a previous superhero team, All-Winners Squad, who appeared in comic books series published by Marvel Comics' predecessor Timely Comics.</p>
+<a
+   href="Avengers (comics) - Wikipedia">Visit Avengers wiki</a>to know more about Avengers</p>
+</hr>
+<p>Developed by ProGrad Junior, ESHWAR ANAND 😎
+</div>
+
+          
+          
+          
+          html
+          
+          
+          
+         
+body{
+  background-image:url("https://i.ytimg.com/vi/3c14_t_47v4/maxresdefault.jpg");
+  background-size:100% 100%
+}
+div{
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin:10%;
+  padding:2%
+}
+img{
+  width:80%;
+  border-radius:10px;
+}
+h1{
+  font-size:500%
+}
+h2{
+  font-size:250%
+}
+p{
+  font-size:150%
+}
+
+  img:hover {
+  cursor:pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px 5px green;
+}
+img:hover {
+  cursor:pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px 5px red;
+}
+  
+    
+    
+
+    
+  css
