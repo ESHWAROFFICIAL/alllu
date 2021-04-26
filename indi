@@ -1,0 +1,60 @@
+<h1>HAPPY INDEPENDENCE DAY</h1>
+<h2>Today is the day we,the Indians celabrate our independence day.</h2>
+<h1>August 15</h1>
+<img 
+     src="https://www.sentinelassam.com/wp-content/uploads/2018/08/Independence-Day-1.jpg">
+<p id="p1">Independence Day is annually celebrated on 15 August, as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947, the day when the provisions of the Indian Independence Act 1947, as passed by the</p>
+<p id="p2">United Kingdom Parliament, which transferred legislative sovereignty to the Indian Constituent Assembly came into effect. India retained King George VI as head of state until its </p>
+<p id="p3">transition to full republican and Constitution of India 1950 replaced the dominion prefix, Dominion of India with the enactment of the sovereign law Constitution of India. India attained independence following the Independence Movement noted for largely non-violent resistance and civil disobedience</P>
+<h3>My family and I love independence day</h3>
+<img src="https://marketplace.canva.com/EADaj4lHpy4/2/0/1600w/canva-family-photo-temple-india-independence-day-Wx12Ol_6eXA.jpg" alt="">
+<h1>I❤INDIA</H1> 
+<br>
+<p>Devoleped by ProGrad Junior ESHWAR🧡🤍💚</p>
+
+
+
+
+html
+
+
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1568044112405-2b0ec05ca10c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  }
+  h1,h2,p,h3 {
+  text-align: center;
+  }
+  img{
+  width:70%
+  }
+  body{
+  font-family: 'Dancing Script', cursive;
+     background-image: 100% 100%;
+   }
+  #p1{color:orange;}
+  #p2{color:white;}
+  #p3{color:green;}
+  h1,h2{
+    color:darkblue;
+  }
+  img {
+    margin-left:100px;
+   }
+body{
+  background-repeat:no-repeat;
+}
+h1:hover{
+  cursor: pointer;
+  animation: mymove 2s infinite ;
+}
+@Keyframes mymove{
+  from{color:blue;}
+  to{color:pink;font-size:400%;}
+}
+
+
+
+
+css
